@@ -1,12 +1,9 @@
- try:-  https://manojaberathna24.github.io/Weather_Dashboard_CI-CD-pipeline-/
+# ☁️ Weather Dashboard
 
+![CI Pipeline](https://github.com/npaberathna/weather_app/workflows/CI%20Pipeline/badge.svg)
+![Deploy](https://github.com/npaberathna/weather_app/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
 
-#  Weather Dashboard - Complete Beginners Guide
-
-![CI Pipeline](https://github.com/manojaberathna24/Weather_Dashboard_CI-CD-pipeline-/workflows/CI%20Pipeline/badge.svg)
-![Deploy](https://github.com/manojaberathna24/Weather_Dashboard_CI-CD-pipeline-/workflows/Deploy%20static%20content%20to%20Pages/badge.svg)
-
-> **A step-by-step guide for beginners to understand Git, GitHub Actions, Deployment, and Team Collaboration**
+> **A professional weather dashboard application with real-time weather data and 5-day forecast**
 
 ---
 
@@ -14,15 +11,14 @@
 
 | Role | Name | Student ID |
 |------|------|------------|
-| **DevOps/Release Manager** | Manoj Aberathna | [Your ID] |
-| **Backend Developer** | Sanjani Gouthmi | [Your ID] |
-| **Frontend Developer** | Pavithra Weediya Bandara | [Your ID] |
+| **DevOps Engineer** | Buddhika Janadari | [Your ID] |
+| **Full-Stack Developer** | Sajini Savindya | [Your ID] |
 
 ---
 
 ## 🌐 Live Demo
 
-**🔗 Live Site:** [https://manojaberathna24.github.io/Weather_Dashboard_CI-CD-pipeline-/](https://manojaberathna24.github.io/Weather_Dashboard_CI-CD-pipeline-/)
+**🔗 Live Site:** [https://npaberathna.github.io/weather_app/](https://npaberathna.github.io/weather_app/)
 
 ---
 
@@ -368,21 +364,17 @@ project/
 
 # ✨ Individual Contributions
 
-### Manoj Aberathna (DevOps/Release Manager)
-- Repository setup
-- CI/CD pipelines
-- GitHub Pages deployment
+### Buddhika Janadari (DevOps Engineer)
+- Repository setup and configuration
+- GitHub Actions CI/CD pipeline implementation
+- Deployment setup and management
 - Branch protection rules
 
-### Sanjani Gouthmi (Backend Developer)
+### Sajini Savindya (Full-Stack Developer)
 - Weather API integration
-- Data fetching logic
-- Error handling
-
-### Pavithra Weediya Bandara (Frontend Developer)
-- UI/UX design
-- Responsive styling
-- User documentation
+- Frontend UI/UX implementation
+- Data fetching and error handling
+- Responsive styling and documentation
 
 ---
 
@@ -407,16 +399,9 @@ project/
 
 <div align="center">
 
-##  Congratulations!
+## 🎉 Weather Dashboard Team
 
-You now understand:
-- ✅ How to run projects locally
-- ✅ How to deploy websites
-- ✅ How GitHub Actions work
-- ✅ How to collaborate with teams
-- ✅ How to merge code properly
-
-**Manoj Aberathna**
+**Buddhika Janadari** & **Sajini Savindya**
 
 </div>
 

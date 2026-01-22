@@ -1,44 +1,44 @@
 /* ===================================
-   Weather Dashboard - SUPER PREMIUM
-   Attractive Dark Theme + Vibrant Colors
+   Weather Dashboard - PREMIUM DARK
+   Emerald & Teal Theme
    =================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 /* CSS Variables */
 :root {
-    /* 🎨 SUPER VIBRANT COLORS */
-    --neon-blue: #00d4ff;
-    --neon-purple: #b24bf3;
-    --neon-pink: #ff2e63;
-    --neon-orange: #ff9f43;
-    --neon-green: #0be881;
-    --neon-yellow: #ffd32a;
+    /* 🎨 EMERALD TEAL COLORS */
+    --neon-blue: #20e3b2;
+    --neon-purple: #0cebeb;
+    --neon-pink: #ff6b6b;
+    --neon-orange: #feca57;
+    --neon-green: #26de81;
+    --neon-yellow: #fed330;
 
     /* Gradients */
-    --gradient-main: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-    --gradient-hot: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
-    --gradient-cool: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
-    --gradient-sunset: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
-    --gradient-ocean: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --gradient-aurora: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 50%, #764ba2 100%);
+    --gradient-main: linear-gradient(135deg, #11998e 0%, #38ef7d 50%, #0cebeb 100%);
+    --gradient-hot: linear-gradient(135deg, #ee0979 0%, #ff6a00 100%);
+    --gradient-cool: linear-gradient(135deg, #20e3b2 0%, #29ffc6 100%);
+    --gradient-sunset: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --gradient-ocean: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    --gradient-aurora: linear-gradient(135deg, #20e3b2 0%, #0cebeb 50%, #29ffc6 100%);
 
     /* Dark Theme Base */
-    --bg-dark: #0a0a1a;
-    --bg-card: rgba(20, 20, 40, 0.8);
-    --bg-card-hover: rgba(30, 30, 60, 0.9);
-    --glass: rgba(255, 255, 255, 0.05);
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --bg-dark: #0d1117;
+    --bg-card: rgba(22, 27, 34, 0.9);
+    --bg-card-hover: rgba(33, 38, 45, 0.95);
+    --glass: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(48, 54, 61, 0.8);
 
     /* Text Colors */
-    --text-white: #ffffff;
-    --text-light: #e0e0e0;
-    --text-muted: #888899;
+    --text-white: #f0f6fc;
+    --text-light: #c9d1d9;
+    --text-muted: #8b949e;
 
     /* Effects */
-    --glow-blue: 0 0 30px rgba(0, 212, 255, 0.5);
-    --glow-purple: 0 0 30px rgba(178, 75, 243, 0.5);
-    --glow-pink: 0 0 30px rgba(255, 46, 99, 0.5);
+    --glow-blue: 0 0 30px rgba(32, 227, 178, 0.5);
+    --glow-purple: 0 0 30px rgba(12, 235, 235, 0.5);
+    --glow-pink: 0 0 30px rgba(255, 107, 107, 0.5);
 
     /* Spacing */
     --spacing-xs: 0.5rem;
