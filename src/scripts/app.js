@@ -2,6 +2,9 @@
  * Main Application Controller
  * Coordinates all modules and handles user interactions
  * Integrates: Backend (Weather API) + Frontend (UI)
+ * 
+ * @developers Buddhika Janadari (DevOps Engineer), Sajini Savindya (Full-Stack Developer)
+ * @project Weather Dashboard - DevOps Assignment
  */
 
 class WeatherApp {
