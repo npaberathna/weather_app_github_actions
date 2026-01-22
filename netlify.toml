@@ -1,0 +1,35 @@
+# Netlify Configuration
+# This file configures the deployment settings for Netlify
+
+[build]
+  # Directory to publish (contains index.html)
+  publish = "src"
+  
+  # Build command (optional for static sites)
+  command = "npm run build"
+
+# Redirects for SPA (Single Page App) support
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Cache static assets
+[[headers]]
+  for = "/styles/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/scripts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
